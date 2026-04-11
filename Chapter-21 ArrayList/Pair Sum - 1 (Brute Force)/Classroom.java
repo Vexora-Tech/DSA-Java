@@ -1,7 +1,6 @@
 import java.util.*;
 public class Classroom{
   public static boolean pairSum1(ArrayList<Integer> list, int target){
-    int maxWater = 0;
     int lp = 0;
     int rp = list.size()-1;
     //brute force method 
